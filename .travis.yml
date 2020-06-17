@@ -1,0 +1,40 @@
+language: r
+
+r: 
+  - bioc-devel
+
+cache: packages
+
+warnings_are_errors: false
+
+script:
+  - Rscript -e "library(devtools); devtools::check()"
+ 
+r_github_packages:
+  - r-lib/covr
+
+r_packages:
+  - gtools
+  - parallel
+  - roxygen2
+  - testthat
+  - knitr
+  - grid
+  - pbapply
+  - viridis
+  - ggplot2
+  - impute
+  - devtools
+
+bioc_packages:
+  - BiocSingular
+  - Homo.sapiens
+  - GenomicRanges
+  - GenomicAlignments
+  - SummarizedExperiment
+  - BiocStyle
+  - BSgenome.Hsapiens.UCSC.hg38
+  - BSgenome.Mmusculus.UCSC.mm9
+  - bsseq
+  - RaggedExperiment
+  - DelayedMatrixStats
