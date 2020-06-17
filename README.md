@@ -1,4 +1,4 @@
-![alt text](https://github.com/JordanVeldboom/compartmap/blob/master/compartmap_logo.png "Compartmap Logo")
+![alt text](https://github.com/JordanVeldboom/compartmap/blob/master/compartmap_logo.png)
 
 # Compartmap: chromatin compartments from DNA methylation, ATACseq, and RNAseq 
 
