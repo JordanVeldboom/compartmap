@@ -10,7 +10,7 @@ Authors@R: c(person("Benjamin", "Johnson", role = c("aut", "cre"),
              person("Kasper", "Hansen", role = c("aut")),
              person("Jean-Philippe", "Fortin", role = c("aut")))
 URL: https://github.com/JordanVeldboom/compartmap
-BugReports: https://github.com/biobenkj/compartmap/issues
+BugReports: https://github.com/JordanVeldboom/compartmap/issues
 Encoding: UTF-8
 License: GPL-3 + file LICENSE
 biocViews: Genetics, Epigenetics, ATACSeq, MethylSeq, MethylationArray, RNASeq
