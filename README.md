@@ -1,4 +1,4 @@
-![Compartmap Logo](inst/doc/Compartmap_Logo.png)
+# pkgdown &lt;img src="inst/doc/Compartmap_Logo.png" align="right" /&gt;
 
 # Compartmap: chromatin compartments from DNA methylation, ATACseq, and RNAseq 
 
