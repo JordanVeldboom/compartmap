@@ -184,13 +184,13 @@ nav[data-toggle='toc'] .nav > li > a {
   padding: 4px 20px 4px 6px;
   font-size: 1.5rem;
   font-weight: 400;
-  color: *-danger;
+  color: inherit;
 }
 
 nav[data-toggle='toc'] .nav > li > a:hover,
 nav[data-toggle='toc'] .nav > li > a:focus {
   padding-left: 5px;
-  color: *-danger;
+  color: inherit;
   border-left: 1px solid #878787;
 }
 
