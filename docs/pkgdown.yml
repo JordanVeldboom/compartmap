@@ -6,4 +6,4 @@ last_built: 2020-06-19T19:57Z
 
 template:
     params:
-        bootswatch: cerulean
+        bootswatch: flatly
