@@ -1,4 +1,4 @@
-# pkgdown &lt;img src="inst/doc/Compartmap_Logo.png" align="right" /&gt;
+# Compartmap <img src="inst/doc/Compartmap_Logo.png" align="right">
 
 ![Compartmap](inst/doc/Compartmap_Logo.png)
 
