@@ -84,7 +84,7 @@
 
 <div id="section" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#section" class="anchor"></a><img src="inst/doc/Compartmap_Logo.png" align="right">
+<a href="#section" class="anchor"></a><img src="docs/images/Compartmap_Logo.png" align="right">
 </h1></div>
 </div>
 <div id="compartmap-chromatin-compartments-from-dna-methylation-atacseq-and-rnaseq" class="section level1">
@@ -98,7 +98,7 @@
 # or:
 install.packages("BiocManager")
 BiocManager::install("trichelab/compartmap")</code></pre>
-<p>Compartmap extends methods to perform A/B compartment inference from (sc)ATAC-seq and methylation arrays originally proposed by Fortin and Hansen 2015, Genome Biology (<a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0741-y" class="uri">https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0741-y</a>). Originally, Fortin and Hansen demonstrated that chromatin conformation could be inferred from (sc)ATAC-seq, bisulfite sequencing, DNase-seq and methylation arrays, similar to the results provided by HiC. Thus, in addition to the base information provided by the aforementioned assays, chromatin state could also be inferred. However, these data were restricted to group level A/B compartment inference.</p>
+<p>Compartmap extends methods to perform A/B compartment inference from (sc)ATAC-seq and methylation arrays originally proposed by Fortin and Hansen 2015, <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0741-y">Genome Biology</a>. Originally, Fortin and Hansen demonstrated that chromatin conformation could be inferred from (sc)ATAC-seq, bisulfite sequencing, DNase-seq and methylation arrays, similar to the results provided by HiC. Thus, in addition to the base information provided by the aforementioned assays, chromatin state could also be inferred. However, these data were restricted to group level A/B compartment inference.</p>
 <p>Here, we propose a method to infer sample-level chromatin state, thus enabling (un)supervised clustering of samples/cells based on A/B compartments. To accomplish this, we employ a shrinkage estimator towards a global or targeted mean, using either chromsome or genome-wide information from ATAC-seq and methylation arrays (e.g. Illumina 450k or EPIC arrays). The output from compartmap can then be embedded and visualized using your favorite clustering approach, such as UMAP/tSNE.</p>
 </div>
 <div id="quick-start" class="section level2">
@@ -158,12 +158,12 @@ embed_plotly(embed_compartments, tooltip = colnames(embed_compartments), show_le
 <div id="example-of-individual-sample-compartment-visualization" class="section level3">
 <h3 class="hasAnchor">
 <a href="#example-of-individual-sample-compartment-visualization" class="anchor"></a>Example of individual sample compartment visualization</h3>
-<p><img src="inst/doc/chr1_AB_compartments.png" alt="sample plotAB"></p>
+<p><img src="docs/images/chr1_AB_compartments.png" alt="sample plotAB"></p>
 </div>
 <div id="example-of-umapd-atac-seq-data-from-hdac-inhibitor-treated-sezary-syndrome-patient-samples" class="section level3">
 <h3 class="hasAnchor">
 <a href="#example-of-umapd-atac-seq-data-from-hdac-inhibitor-treated-sezary-syndrome-patient-samples" class="anchor"></a>Example of UMAP’d ATAC-seq data from HDAC inhibitor treated Sezary syndrome patient samples</h3>
-<p><img src="inst/doc/ATAC_supervised_UMAP.png" alt="sample umap"></p>
+<p><img src="docs/images/ATAC_supervised_UMAP.png" alt="sample umap"></p>
 </div>
 </div>
 </div>
