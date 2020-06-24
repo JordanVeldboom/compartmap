@@ -79,8 +79,6 @@ embed_plotly(embed_compartments, tooltip = colnames(embed_compartments), show_le
 
 ![sample plotAB](man/figures/chr1_AB_compartments.png)
 
-<img src=https://raw.githubusercontent.com/JordanVeldboom/compartmap/master/docs/images/chr1_AB_compartments.png width=50%/>
-
 ### Example of UMAP'd ATAC-seq data from HDAC inhibitor treated Sezary syndrome patient samples
 
 ![sample umap](man/figures/ATAC_supervised_UMAP.png)
