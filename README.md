@@ -1,4 +1,4 @@
-# <img src="inst/doc/Compartmap_Logo.png" align="right">
+# <img src="docs/images/Compartmap_Logo.png" align="right">
 
 # Compartmap: chromatin compartments from DNA methylation, ATACseq, and RNAseq 
 
@@ -77,8 +77,8 @@ embed_plotly(embed_compartments, tooltip = colnames(embed_compartments), show_le
 
 ### Example of individual sample compartment visualization
 
-![sample plotAB](inst/doc/chr1_AB_compartments.png)
+![sample plotAB](docs/images/chr1_AB_compartments.png)
 
 ### Example of UMAP'd ATAC-seq data from HDAC inhibitor treated Sezary syndrome patient samples
 
-![sample umap](inst/doc/ATAC_supervised_UMAP.png)
+![sample umap](docs/images/ATAC_supervised_UMAP.png)
